@@ -113,7 +113,7 @@ const Home = () => {
               width: "100%",
             }}
           >
-            {newUsers ? (
+            {newUsers.length >0? (
               <>
                 {newUsers?.map((user) => (
                   <Box
